@@ -1,23 +1,16 @@
 # ADIF Duplicate Cleaner
 
 ## Description
-Outil dédié aux radioamateurs pour le nettoyage des carnets de trafic. Il identifie et supprime les doublons dans les fichiers au format ADIF (.adi).
+Cet utilitaire est conçu pour les radioamateurs souhaitant nettoyer et organiser leurs carnets de trafic (logbooks). Il permet d'identifier et de supprimer automatiquement les doublons dans les fichiers de log, garantissant ainsi une base de données propre pour vos statistiques et vos futurs exports.
 
-## Fonctionnalités
-- Suppression automatique des entrées dupliquées.
-- Préservation de l'intégrité des données ADIF.
+## Fonctionnalités principales
+- **Multi-formats** : Supporte les fichiers standard ADIF (`.adi`, `.adif`) et les exports XML spécifiques de Ham Radio Deluxe (HRD).
+- **Encodage Universel (UTF-8)** : Gère parfaitement les caractères spéciaux (comme le symbole `ƒ`) pour éviter toute perte de données lors du traitement.
+- **Signature Intelligente** : Détecte les doublons en comparant l'indicatif (CALL), la bande (BAND), le mode (MODE) et la date/heure du contact.
+- **Interface Graphique** : Utilisation simplifiée via une fenêtre Tkinter intuitive, sans ligne de commande complexe.
 
-## Évolutions prévues
-- Ajout du format XML (en cours de réflexion).
-- Amélioration de l'interface utilisateur.
-
-## Licence
-Ce projet est distribué sous licence MIT.
 ## Installation
-1. Assurez-vous d'avoir **Python 3.x** installé sur votre système.
-2. Clonez ce dépôt ou téléchargez le fichier `adif_cleaner.py`.
-
-## Utilisation
-Lancez le script via votre terminal ou invite de commande :
-```bash
-python adif_cleaner.py
+1. Assurez-vous que **Python 3.x** est installé sur votre système.
+2. Installez la bibliothèque nécessaire pour la gestion de l'ADIF via votre terminal :
+   ```bash
+   pip install adif_io
