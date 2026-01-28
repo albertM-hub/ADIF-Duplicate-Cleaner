@@ -17,3 +17,16 @@ Cet utilitaire est conçu pour les radioamateurs souhaitant nettoyer et organise
    Pour installer rapidement toutes les dépendances, utilisez :
 
 pip install -r requirements.txt
+---
+
+## Contributions
+Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration ou si vous rencontrez un bug :
+1. Ouvrez une **Issue** pour en discuter.
+2. Proposez une **Pull Request** avec vos modifications.
+
+Les retours d'utilisateurs de logiciels de log spécifiques (comme Ham Radio Deluxe) sont particulièrement appréciés pour continuer d'améliorer la compatibilité du script.
+
+## Remerciements
+- À la communauté radioamateur pour ses retours et tests.
+- Aux développeurs de la bibliothèque `adif_io`.
+- Un merci particulier pour l'aide apportée à la gestion des caractères spéciaux et des formats XML propriétaires.
