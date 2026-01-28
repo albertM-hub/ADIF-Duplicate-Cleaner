@@ -14,3 +14,6 @@ Cet utilitaire est conçu pour les radioamateurs souhaitant nettoyer et organise
 2. Installez la bibliothèque nécessaire pour la gestion de l'ADIF via votre terminal :
    ```bash
    pip install adif_io
+   Pour installer rapidement toutes les dépendances, utilisez :
+
+pip install -r requirements.txt
