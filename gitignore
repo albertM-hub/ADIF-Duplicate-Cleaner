@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Build
+build/
+*.spec
+dist/ADIF_Cleaner.exe
+!dist/ADIF_Cleaner.exe  # On garde l'exe
+
+# Environnement
+venv/
+env/
+.env
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Système
+.DS_Store
+Thumbs.db
